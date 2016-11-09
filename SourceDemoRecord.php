@@ -10,7 +10,7 @@
 define('DEMOTYPE_RIE',  0);
 define('DEMOTYPE_TV',   1);
 
-class DemoRecord {
+class SourceDemoRecord {
     var $DemoProtocol;              // Demo protocol version 
     var $NetworkProtocol;           // Network protocol version
     var $ServerName;                // HOSTNAME in case of TV, and IP:PORT or localhost:PORT in case of RIE (Record In eyes).
